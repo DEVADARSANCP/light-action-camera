@@ -16,13 +16,13 @@ def process():
     cap = cv2.VideoCapture(0) 
 
     emotions_count = {
-        'angry': 0,
-        'disgust': 0,
-        'fear': 0,
-        'happy': 0,
-        'sad': 0,
-        'surprise': 0,
-        'neutral': 0}
+        'angry': 0.0,
+        'disgust': 0.0,
+        'fear': 0.0,
+        'happy': 0.0,
+        'sad': 0.0,
+        'surprise': 0.0,
+        'neutral': 0.0}
 
     eye_detected_count = 0
     eyes_not_focused_count = 0
